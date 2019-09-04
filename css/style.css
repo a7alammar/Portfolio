@@ -1,0 +1,74 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+/* Start Header  */
+header {
+    border-bottom: 2px solid #7d97ad;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+header .logo {
+    height: 100px;
+}
+
+header .personal-info {
+    text-align: center;
+    color: #2d3c49;
+}
+
+header .personal-info span{
+    text-transform: uppercase;
+}
+
+header .personal-info h1{
+    font-weight: lighter;
+}
+@media  (max-width: 768px){
+    .logo {
+        width: 100%;
+    }
+}
+/* End Header  */
+
+/* Start Portofolio */
+.portofolio h2 {
+    margin:20px 0;
+    color: #7d97ad;
+    font-weight: lighter;
+}
+.portofolio .project:hover {
+    background-color: #02b3e4;
+}
+.portofolio .project img {
+    max-width: 100%;
+    height: 300px;
+    margin: 15px 0 ;
+}
+.portofolio .project h3 , 
+.portofolio .project a {
+    color: #2d3c49;
+    font-weight: lighter;
+}
+@media (max-width: 991px){
+    .portofolio h2 {
+        text-align: center;
+    }
+}
+/* End Portofolio */
+
+/* Start Footer  */
+footer {
+    padding: 20px;
+    border-top: 2px solid #7d97ad ;
+    text-align: center;
+    margin-top: 20px;
+}
+/* End Footer  */
+
